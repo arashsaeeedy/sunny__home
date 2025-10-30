@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* basic reset / layout for mounting root */
 html,body,#root {
   height: 100%;
@@ -11,3 +12,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a { color: inherit; }
+=======
+
+:root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #fff;
+  background-color: #181818;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #181818;
+}
+>>>>>>> 0bc683b718467269591d3468d2f129d3207db59d
